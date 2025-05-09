@@ -3,3 +3,96 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.debug{
+    border: 1px dashed black;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 10px;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    position: sticky;
+    box-shadow: 0 1px 5px black;
+}
+
+.header-flex{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-self: center;
+    padding: 10px 30px;
+}
+
+.info{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.supporto{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.login{
+    border: 0;
+    background-color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+
+.register{
+    border: 0;
+    background-color: #0061fe;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
+.jumbotron{
+    background-color: #b4d0e6;
+}
+
+.jumbo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+.jumbo-text{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.jumbo-img{
+    display: flex;
+    max-height: 200px;
+    width: 70%;
+}
