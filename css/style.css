@@ -10,7 +10,7 @@
 
 .container{
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1250px;
     padding: 0 10px;
 }
 
@@ -74,6 +74,7 @@ header{
 
 .jumbotron{
     background-color: #b4d0e6;
+    min-height: 600px;
 }
 
 .jumbo{
@@ -83,16 +84,33 @@ header{
 
 h1{
     font-size: 5rem;
+    margin-top: 30px;
+    padding: 50px 0;
+    font-weight: bolder;
 }
 
 .jumbo-text{
     display: flex;
     flex-direction: column;
     width: 30%;
+    gap: 2rem;
+    line-height: 20px;
+}
+
+.fa-arrow-down{
+    font-size: 3rem;
+    margin-top: 2rem;
+    padding: 20px 0;
+}
+
+.jumbo-img-container{
+    width: 70%;
+    position: relative;
 }
 
 .jumbo-img{
-    display: flex;
-    max-height: 200px;
-    width: 70%;
+    max-height: 450px;
+    position: absolute;
+    top: 20;
+    left: 0;
 }
