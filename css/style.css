@@ -258,3 +258,20 @@ a{
     padding: 10px 0;
     border-bottom: 1px solid lightgray;
 }
+
+.big-card-body{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.big-card-text{
+    width: 85%;
+    padding: 40px 0;
+}
+
+.big-card .blue-button{
+    margin-top: 30px;
+    padding: 10px 30px;
+    font-size: 0.8rem;
+}
